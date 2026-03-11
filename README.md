@@ -1,4 +1,3 @@
-# Resume-Lens
 # 🔍 ResumeLens - AI Resume Analyzer
 
 **ResumeLens** is a professional AI-powered resume information extractor built with **Streamlit** and **Google Gemini API**. It quickly extracts essential information from resumes and displays it in an interactive, modern dashboard.
