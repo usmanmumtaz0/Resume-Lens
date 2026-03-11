@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBGkjYknMRBHHLXhDcvqbQvoVJxKLSMMq0"
+os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(model="gemini-3-flash-preview")
 
@@ -95,5 +95,6 @@ Artificial Intelligence, Machine Learning, Backend Development, and building aut
 result = chain.invoke({
     "resume": resume_text
 })
+
 
 print(result)
